@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot Image On Javscript</title>
+</head>
+<body>
+    <canvas id="theCanv" width="1500" height="1500" ></canvas>
+    <img id="pic01" src="https://images3.alphacoders.com/129/thumb-1920-129799.jpg">
+    
+    <script >
+        function () {
+            
+        }
+
+        function  init() {
+            var canvas = document.getElementById('theCanv');
+            var c = canvas.getContext('2d');
+
+            var img = document.getElementById('pic01');
+        }
+
+        //invoke function init once document is fully loaded
+        window.addEventListener('load', init, false);
+
+    </script>
+
+
+    <style>
+        body {
+            background: url(https://images2.alphacoders.com/265/thumb-1920-265250.jpg);
+            background-size: cover;
+            border: 0;
+            padding: 0;
+            margin: 0;
+        }
+
+        img {
+            width: 400px;
+            height: 400px;
+        }
+
+    </style>
+</body>
+</html>

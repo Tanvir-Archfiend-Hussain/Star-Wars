@@ -1,0 +1,13 @@
+body {
+    background: url(https://cdn.shopify.com/s/files/1/1504/4854/files/Screen_Shot_2019-09-03_at_9.18.32_AM.png?v=1567527623);
+    background-size: cover;
+}
+
+.grid {
+    width: 560px;
+    height: 560px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
